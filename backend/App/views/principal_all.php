@@ -307,7 +307,7 @@
                                 <div class="col-lg-12">
                                     <div class="card">
                                         <div class="d-flex flex-column h-100">
-                                            <h4 class="m-4">¡Bienvenido a tu administrador equipo GRUPO LAHE!<br><strong>FORUM ASOFARMA UROLOGÍA 2022</strong></h4>
+                                            <h4 class="m-4">¡Bienvenido a tu administrador equipo GRUPO LAHE!<br><strong>ASOFARMA UROLOGÍA 2022</strong></h4>
                                         </div>
                                     </div>
                                 </div>
