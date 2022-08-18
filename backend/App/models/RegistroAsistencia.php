@@ -361,7 +361,6 @@ sql;
         CONCAT (ra.nombre,' ',ra.segundo_nombre,' ',ra.apellido_paterno,' ',ra.apellido_materno) AS nombre_completo
         FROM registros_asistencia ras
         INNER JOIN asistencias a ON a.id_asistencia = id_asistencias
-        INNER JOIN utilerias_asistentes ua
         INNER JOIN registros_acceso ra ON ra.id_registro_acceso = ras.utilerias_asistentes_id
         INNER JOIN linea_principal lp ON lp.id_linea_principal = ra.especialidad
         WHERE a.clave = '$code' GROUP BY ras.utilerias_asistentes_id;
