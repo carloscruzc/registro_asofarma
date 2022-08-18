@@ -1061,7 +1061,7 @@ html;
 
             <td style="text-align:center; vertical-align:middle;">
             <a href="/RegistroAsistencia/abrirpdfGafete/{$value['clave']}/{$value['ticket_virtual']}" class="btn btn-red-cardio btn-icon-only text-white" title="Imprimir Gafetes" data-bs-placement="top" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Imprimir Gafetes" target="_blank"><i class="fas fa-print"> </i></a>     
-            <span class="badge-cardio center">NO REGISTRADO</span>
+            <!--<span class="badge-cardio center">NO REGISTRADO</span>-->
             <!--button type="button" class="btn btn-outline-primary btn_qr" value="{$value['id_ticket_virtual']}"><span class="fa fa-qrcode" style="padding: 0px;"> {$ticket_virtual[0]['clave']}</span></button-->
           </td>
         </tr>
