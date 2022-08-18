@@ -128,7 +128,7 @@
                                                             </button>
                                                         </div>
                                                         <hr>
-                                                        <h7 class="mb-0"><span class="fa fa-calendar-alt"></span> <span id="fecha"><?php echo $fecha_asistencia; ?></span> | Asistencia abierta de <span class="fa fa-clock-o"></span> <span id="hora-inicio"><strong><?php echo $hora_asistencia_inicio; ?></strong></span> a <span class="fa fa-clock-o"></span> <span id="hora-fin"><strong><?php echo $hora_asistencia_fin; ?></strong></span> <strong> (Hora Local Cancún)</strong></h7>
+                                                        <h7 class="mb-0"><span class="fa fa-calendar-alt"></span> <span id="fecha"><?php echo $fecha_asistencia; ?></span> | Asistencia abierta de <span class="fa fa-clock-o"></span> <span id="hora-inicio"><strong><?php echo $hora_asistencia_inicio; ?></strong></span> a <span class="fa fa-clock-o"></span> <span id="hora-fin"><strong><?php echo $hora_asistencia_fin; ?></strong></span> <strong> (Hora Local Cuernavaca Centro)</strong></h7>
                                                         <hr>
                                                         <br>
                                                         <div class="row gx-2 gx-sm-3">
