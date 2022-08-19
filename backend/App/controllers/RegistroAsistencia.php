@@ -398,7 +398,7 @@ html;
         $pdf->AddPage();
         $pdf->SetFont('Arial', 'B', 8);    //Letra Arial, negrita (Bold), tam. 20
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Image('qrs/gafetes/'.$clave.'.png',87.5,196,35,0,'PNG');
+        $pdf->Image('qrs/gafetes/'.$clave.'.png',95.5,197,22,0,'PNG');
         $pdf->SetFont('Arial', 'B', 25);
         // $pdf->Multicell(133, 80, $clave_ticket, 0, 'C');
 
