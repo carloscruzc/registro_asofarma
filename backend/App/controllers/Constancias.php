@@ -601,6 +601,8 @@ html;
         // $pdf->Image('constancias/plantillas/'.$nombre_imagen, 0, 0, 296, 210);
         // $pdf->SetFont('Arial', 'B', 25);
         // $pdf->Multicell(133, 80, $clave_ticket, 0, 'C');
+        
+        $pdf->Image('constancias/firma1.png', 110, 161, 79, 20);
 
         //$pdf->Image('1.png', 1, 0, 190, 190);
         $pdf->SetFont('Arial', 'B', 5);    //Letra Arial, negrita (Bold), tam. 20
@@ -608,7 +610,7 @@ html;
         //$num_linea =utf8_decode("Línea: 39");
         //$num_linea2 =utf8_decode("Línea: 39");
         if($id_producto == 1){
-        $pdf->SetXY(15, 65);
+        $pdf->SetXY(15, 73);
         
         $pdf->SetFont('Arial', 'B', 22);
         #4D9A9B
@@ -623,17 +625,17 @@ html;
         // $pdf->Multicell(275, 10, utf8_decode($attend).' "'.utf8_decode("$nombre_constancia").'"', 0, 'C');
         // }
         //TIEMPO
-        $pdf->SetFont('Arial', 'B',10);
-        $pdf->SetXY(158, 177);
-        // $pdf->Multicell(10, 10, utf8_decode($no_horas), 0, 'C');
-        //FECHA
-        $pdf->SetFont('Arial', '',10);
-        $pdf->SetXY(13, 179.99);
+        // $pdf->SetFont('Arial', 'B',10);
+        // $pdf->SetXY(158, 177);
+        // // $pdf->Multicell(10, 10, utf8_decode($no_horas), 0, 'C');
+        // //FECHA
+        // $pdf->SetFont('Arial', '',10);
+        // $pdf->SetXY(13, 179.99);
         // $pdf->Multicell(275, 10, utf8_decode($fecha), 0, 'C');
         $pdf->Output();
         }
         else{
-        $pdf->SetXY(15, 66);
+        $pdf->SetXY(15, 73);
         
         $pdf->SetFont('Arial', 'B', 30);
         #4D9A9B
@@ -647,13 +649,14 @@ html;
         // }else{
         // $pdf->Multicell(275, 10, utf8_decode($attend).' "'.utf8_decode("$nombre_constancia").'"', 0, 'C');
         // }
-        //TIEMPO
-        $pdf->SetFont('Arial', 'B',10);
-        $pdf->SetXY(158, 177);
-        // $pdf->Multicell(10, 10, utf8_decode('5'), 0, 'C');
-        //FECHA
-        $pdf->SetFont('Arial', '',10);
-        $pdf->SetXY(13, 179.99);
+        // //TIEMPO
+        // $pdf->SetFont('Arial', 'B',10);
+        // $pdf->SetXY(158, 177);
+        // // $pdf->Multicell(10, 10, utf8_decode('5'), 0, 'C');
+        // //FECHA
+        // $pdf->SetFont('Arial', '',10);
+        // $pdf->SetXY(13, 179.99);
+
         // $pdf->Multicell(275, 10, utf8_decode($fecha), 0, 'C');
         $pdf->Output();
             
@@ -747,19 +750,22 @@ html;
         $pdf->SetFont('Arial', 'B', 8);    //Letra Arial, negrita (Bold), tam. 20
         $pdf->setY(1);
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Image('constancias/constancia_congreso_2.jpeg', 0, 0, 297, 210);
+        $pdf->Image('constancias/img_constancia.jpg', 0, 0, 297, 210);
         // $pdf->Image('constancias/plantillas/'.$nombre_imagen, 0, 0, 296, 210);
         // $pdf->SetFont('Arial', 'B', 25);
         // $pdf->Multicell(133, 80, $clave_ticket, 0, 'C');
 
         //$pdf->Image('1.png', 1, 0, 190, 190);
-        $pdf->SetFont('Arial', 'B', 5);    //Letra Arial, negrita (Bold), tam. 20
+        $pdf->SetFont('Arial', 'B', 5);    //Letra Arial, negrita (Bold), tam. 20}
+
+        
+        // $pdf->Image('constancias/firma1.png', 110, 161, 79, 20);
         //$nombre = utf8_decode("Jonathan Valdez Martinez");
         //$num_linea =utf8_decode("Línea: 39");
         //$num_linea2 =utf8_decode("Línea: 39");
         
         if($id_producto == 1){
-            $pdf->SetXY(15, 65);
+            $pdf->SetXY(15, 73);
             
             $pdf->SetFont('Arial', 'B', 22);
             #4D9A9B
@@ -782,11 +788,13 @@ html;
             // $pdf->Multicell(10, 10, utf8_decode($no_horas), 0, 'C');
             $pdf->SetFont('Arial', '',10);
             $pdf->SetXY(13, 175);
+
+            
             // $pdf->Multicell(275, 10, utf8_decode($fecha), 0, 'C');
             $pdf->Output();
             }
             else{
-            $pdf->SetXY(15, 66);
+            $pdf->SetXY(15, 73);
             
             $pdf->SetFont('Arial', 'B', 30);
             #4D9A9B
@@ -811,6 +819,8 @@ html;
             $pdf->SetFont('Arial', '',10);
             $pdf->SetXY(13, 175);
             // $pdf->Multicell(275, 10, utf8_decode($fecha), 0, 'C');
+
+           
             $pdf->Output();
                 
             }
