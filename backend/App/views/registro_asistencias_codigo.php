@@ -302,7 +302,12 @@
                     "sSortDescending": ": Activar para ordenar la columna de manera descendente"
                 }
             
-            }
+            },buttons: [
+            {
+                split: [ 'pdf', 'excel'],
+            },
+            'colvis'
+        ]
         });
 
         
@@ -486,7 +491,8 @@
             });
         });
         
-        
+    table.buttons().container()
+    .appendTo( '#example_wrapper .col-md-6:eq(0)' );   
     });
 
 </script>

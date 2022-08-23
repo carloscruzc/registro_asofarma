@@ -77,15 +77,16 @@ html;
         <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
         <script src="/assets/js/soft-ui-dashboard.min.js?v=1.0.5"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-        <script src="http://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js" defer></script>
-        <link rel="stylesheet" href="http://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css" />
         
         <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js" defer></script>
         <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css" />
 
-        <script src="//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js" defer></script>
-        <link rel="stylesheet" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css" />
+        <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+        <link rel="stylesheet" href="http://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css" />
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.colVis.min.js"></script>
 
 html;
 
